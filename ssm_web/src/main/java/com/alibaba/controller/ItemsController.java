@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/items")
 public class ItemsController {
     @Autowired
-    private ItemsService itemsService;
+    private ItemsService itemsService;//ddddd
 @RequestMapping("/list")
     public String findAll(Model model){
         List<Items> items= itemsService.findAll ();
